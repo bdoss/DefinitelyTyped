@@ -5201,11 +5201,11 @@ declare module THREE {
             height: number,
             format: PixelFormat,
             type: TextureDataType,
-            mapping: Mapping,
-            wrapS: Wrapping,
-            wrapT: Wrapping,
-            magFilter: TextureFilter,
-            minFilter: TextureFilter,
+            mapping?: Mapping,
+            wrapS?: Wrapping,
+            wrapT?: Wrapping,
+            magFilter?: TextureFilter,
+            minFilter?: TextureFilter,
             anisotropy?: number
         );
 

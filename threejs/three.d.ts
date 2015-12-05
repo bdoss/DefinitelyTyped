@@ -5198,16 +5198,16 @@ declare module THREE {
 
     export class DataTexture extends Texture {
         constructor(
-            data: ImageData,
+            data: ImageData | Uint8Array,
             width: number,
             height: number,
             format: PixelFormat,
             type: TextureDataType,
-            mapping: Mapping,
-            wrapS: Wrapping,
-            wrapT: Wrapping,
-            magFilter: TextureFilter,
-            minFilter: TextureFilter,
+            mapping?: Mapping,
+            wrapS?: Wrapping,
+            wrapT?: Wrapping,
+            magFilter?: TextureFilter,
+            minFilter?: TextureFilter,
             anisotropy?: number
         );
 
